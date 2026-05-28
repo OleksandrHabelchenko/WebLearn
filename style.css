@@ -1,0 +1,55 @@
+body {
+            background-color: gray;
+            color: white;
+            font-family: Arial;
+            padding: 35px;
+            text-align: center;
+            background-image: url(background-sky.jpg);
+            background-size: cover;
+        }
+        h1 {
+            color: #e94560;
+        }
+        button {
+            background-color: #e94560;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 15px;    
+        }
+        button:active {
+                transform: scale(0.95);    
+        }
+        ul, ol {
+            display: inline-block;
+            text-align: left;
+        }
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin: 5px;
+            width: 200px;
+        }
+        .highlight {
+            background-color: rgba(233, 69, 96, 0.3);
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 180px;
+            margin: 0 auto;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .card {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            width: 150px;
+        }
+
